@@ -2,8 +2,8 @@ class CadastroPage
 
     include Capybara::DSL
 
-    def alerta
-      find('.alert-login')
+    def verifica_cadastro
+      find('.media')
     end
   
     def registrar(nome, email, senha)
@@ -16,9 +16,10 @@ class CadastroPage
     def cadastrar
         find('a[href$=register]').click
     end
-
-    def header_cell(col) #:nodoc:
-      
+    
+    def alerta_cadastro
+      find('#register_form')
     end
-  end
+  
+end
   

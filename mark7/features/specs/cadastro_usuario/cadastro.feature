@@ -12,11 +12,13 @@ Funcionalidade: Cadastro
 
         E possuo os seguintes dados:
             | nome  | Fernando              |
-            | email | fernando@qaninja.uol5 |
+            | email | fernando@qaninja.net1 |
             | senha | 123456                |
         Quando faço o meu cadastro 
         Então vejo a mensagem "Olá, Fernando"
 
+
+    @cadastro @cadastro_teste
     Esquema do Cenario: Campos obrigatórios
 
         E possuo os seguintes dados:
@@ -24,7 +26,7 @@ Funcionalidade: Cadastro
         | email | <email> |
         | senha | <senha> |
         Quando faço o meu cadastro 
-        Então vejo a mensagem "<saida>"
+        Então vejo a seguinte mensagem "<saida>"
 
         Exemplos:
             | nome     | email                | senha  | saida                |
