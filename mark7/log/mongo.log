@@ -1181,3 +1181,171 @@ D, [2018-07-30T16:49:02.153552 #2292] DEBUG -- : MONGODB | ds225078-a.mlab.com:2
 D, [2018-07-30T16:49:02.315572 #2292] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.162s
 D, [2018-07-30T16:49:02.316572 #2292] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x50502984 type=uuid data=0x4dcf15bec5a14de1...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x6059610 @seconds=1532998035, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x50514600 type=generic data=...
 D, [2018-07-30T16:49:02.476593 #2292] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.160s
+D, [2018-11-14T10:58:17.659679 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T10:58:17.675287 #1864] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T10:58:17.675287 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:17.675287 #1864] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:18.578400 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:18.578400 #1864] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T10:58:18.578400 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:18.578400 #1864] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T10:58:19.128921 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x36858804 type=uuid data=0x3d813d08293b4fff...>}, "deletes"=>[{"q"=>{"profile.email"=>"fernando@qaninja.net1"}, "limit"=>0}]}
+D, [2018-11-14T10:58:19.410125 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T10:58:19.550700 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:19.550700 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:19.706919 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T10:58:19.706919 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:19.847506 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:19.988099 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.859s
+D, [2018-11-14T10:58:22.817235 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T10:58:22.817235 #1864] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T10:58:22.817235 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:22.817235 #1864] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:23.363460 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:23.363460 #1864] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T10:58:23.363460 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:23.363460 #1864] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T10:58:23.910218 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x8124864 type=uuid data=0xfd2c9ad193d34623...>}, "deletes"=>[{"q"=>{"profile.email"=>"fernando@qaninja.net"}, "limit"=>0}]}
+D, [2018-11-14T10:58:24.190880 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T10:58:24.331463 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:24.331463 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:24.487683 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T10:58:24.487683 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:24.628267 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:24.768828 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.859s
+D, [2018-11-14T10:58:26.737310 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T10:58:26.737310 #1864] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T10:58:26.737310 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:26.737310 #1864] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:27.284862 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:27.284862 #1864] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T10:58:27.284862 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:27.284862 #1864] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T10:58:27.831575 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x54786408 type=uuid data=0x0e08500ad0264418...>}, "deletes"=>[{"q"=>{"profile.email"=>""}, "limit"=>0}]}
+D, [2018-11-14T10:58:28.113141 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T10:58:28.253719 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:28.253719 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:28.409942 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T10:58:28.409942 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:28.550552 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:28.691116 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.860s
+D, [2018-11-14T10:58:30.613428 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T10:58:30.613428 #1864] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T10:58:30.613428 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:30.613428 #1864] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:31.160986 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:31.160986 #1864] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T10:58:31.160986 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T10:58:31.160986 #1864] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T10:58:31.707685 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x40548996 type=uuid data=0xde00780ab5354471...>}, "deletes"=>[{"q"=>{"profile.email"=>"fernando@qaninja.net"}, "limit"=>0}]}
+D, [2018-11-14T10:58:31.988913 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T10:58:32.128982 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.140s
+D, [2018-11-14T10:58:32.128982 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:32.285208 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T10:58:32.285208 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T10:58:32.425795 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T10:58:32.566387 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.859s
+D, [2018-11-14T10:59:32.815539 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x40548996 type=uuid data=0xde00780ab5354471...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4d2e8b8 @seconds=1542200301, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x40465320 type=generic data=...
+D, [2018-11-14T10:59:32.956130 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.156s
+D, [2018-11-14T10:59:32.956130 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x54786408 type=uuid data=0x0e08500ad0264418...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x6866b98 @seconds=1542200301, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x54736236 type=generic data=...
+D, [2018-11-14T10:59:33.096830 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.141s
+D, [2018-11-14T10:59:33.096830 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x8124864 type=uuid data=0xfd2c9ad193d34623...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0xf2d150 @seconds=1542200301, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x7956288 type=generic data=0xc...
+D, [2018-11-14T10:59:33.237598 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.141s
+D, [2018-11-14T10:59:33.237598 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x36858804 type=uuid data=0x3d813d08293b4fff...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x46036c8 @seconds=1542200299, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x36706920 type=generic data=...
+D, [2018-11-14T10:59:33.378157 #1864] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:12.572464 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T11:02:12.687192 #6640] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T11:02:12.687192 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:12.688152 #6640] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:13.802675 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:13.802675 #6640] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T11:02:13.802675 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:13.802675 #6640] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T11:02:14.362467 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x39623316 type=uuid data=0x2b5c2d36e9554ef7...>}, "deletes"=>[{"q"=>{"profile.email"=>"fernando@qaninja.net1"}, "limit"=>0}]}
+D, [2018-11-14T11:02:14.646877 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T11:02:14.803055 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:14.849956 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:14.990845 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:14.990845 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:15.129110 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.138s
+D, [2018-11-14T11:02:15.269736 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.907s
+D, [2018-11-14T11:02:26.935043 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T11:02:26.935043 #6640] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T11:02:26.936040 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:26.936040 #6640] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:27.472592 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:27.472592 #6640] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T11:02:27.472592 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:27.472592 #6640] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:28.026516 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:28.026516 #6640] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T11:02:28.026516 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T11:02:28.026516 #6640] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T11:02:28.027515 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T11:02:28.027515 #6640] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T11:02:28.028512 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x53172072 type=uuid data=0xc077b0c9d6544af5...>}, "deletes"=>[{"q"=>{"profile.email"=>"fernando@qaninja.net"}, "limit"=>0}]}
+D, [2018-11-14T11:02:28.300671 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T11:02:28.441292 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:28.441292 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:28.597639 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T11:02:28.597639 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:28.738223 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:28.878812 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.850s
+D, [2018-11-14T11:02:31.194997 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyOpening topology=Unknown>
+D, [2018-11-14T11:02:31.194997 #6640] DEBUG -- : MONGODB | Topology type 'unknown' initializing.
+D, [2018-11-14T11:02:31.194997 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:31.194997 #6640] DEBUG -- : MONGODB | Server ds225078.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:31.735612 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:31.735612 #6640] DEBUG -- : MONGODB | Server description for ds225078.mlab.com:25078 changed from 'unknown' to 'unknown'.
+D, [2018-11-14T11:02:31.735612 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerOpening address=ds225078-a.mlab.com:25078 topology=Unknown>
+D, [2018-11-14T11:02:31.735612 #6640] DEBUG -- : MONGODB | Server ds225078-a.mlab.com:25078 initializing.
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::ServerDescriptionChanged>
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | Server description for ds225078-a.mlab.com:25078 changed from 'unknown' to 'primary'.
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=Unknown new=ReplicaSet>
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | Topology type 'unknown' changed to type 'replica set'.
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | EVENT: #<Mongo::Monitoring::Event::TopologyChanged prev=ReplicaSet new=ReplicaSet>
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | There was a change in the members of the 'replica set' topology.
+D, [2018-11-14T11:02:32.280195 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | STARTED | {"delete"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x34280220 type=uuid data=0xa456b538b0c948b2...>}, "deletes"=>[{"q"=>{"profile.email"=>""}, "limit"=>0}]}
+D, [2018-11-14T11:02:32.561514 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | STARTED | {}
+D, [2018-11-14T11:02:32.701969 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslStart | SUCCEEDED | 0.140s
+D, [2018-11-14T11:02:32.701969 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:32.858180 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.156s
+D, [2018-11-14T11:02:32.858180 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | STARTED | {}
+D, [2018-11-14T11:02:32.998772 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.saslContinue | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:33.134356 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | heroku_4m3km28x.delete | SUCCEEDED | 0.854s
+D, [2018-11-14T11:02:39.737072 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x34280220 type=uuid data=0xa456b538b0c948b2...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4131d68 @seconds=1542200535, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x34180680 type=generic data=...
+D, [2018-11-14T11:02:39.908980 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.172s
+D, [2018-11-14T11:02:39.908980 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x53172072 type=uuid data=0xc077b0c9d6544af5...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x6546c18 @seconds=1542200535, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x53097900 type=generic data=...
+D, [2018-11-14T11:02:40.049688 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.141s
+D, [2018-11-14T11:02:40.050685 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x39623316 type=uuid data=0x2b5c2d36e9554ef7...>}], "$clusterTime"=>{"clusterTime"=>#<BSON::Timestamp:0x4b814f8 @seconds=1542200535, @increment=1>, "signature"=>{"hash"=><BSON::Binary:0x39586308 type=generic data=...
+D, [2018-11-14T11:02:40.192503 #6640] DEBUG -- : MONGODB | ds225078-a.mlab.com:25078 | admin.endSessions | SUCCEEDED | 0.142s
